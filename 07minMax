@@ -1,0 +1,11 @@
+#ivedamas pazimys jei nuo-... iki 0 negalimas balas
+#nuo 1 iki 3 blogas
+# nuo 4 iki 6 patenkinamas
+# nuo 7 iki 9 geras
+# nuo 10 puikus
+# nuo 11 iki +... negalimas balas
+p = int(input('iveskite pazymi... '))
+teiginys = (p<=0) or {p>10}
+if teiginys:
+    print('negalimas balas')
+elsif
